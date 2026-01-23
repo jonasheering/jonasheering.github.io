@@ -1,0 +1,36 @@
+---
+title: ""
+---
+
+:::::: column-page
+::::: grid
+::: {.g-col-12 .g-col-md-4}
+![](files/profile/jonas-heering-photo.jpg){fig-align="center" width="100%"}
+
+### Jonas Heering
+
+PhD Candidate\
+Georgetown University\
+Department of Government
+
+[Google Scholar](https://scholar.google.com/citations?user=WTr67bQAAAAJ&hl=en&oi=ao){.btn .btn-outline-primary .btn-sm} [ORCID](https://orcid.org/0009-0008-8426-7867){.btn .btn-outline-primary .btn-sm}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+
+I am a Ph.D. candidate in International Relations at Georgetown University's Department of Government. My research focuses on state-business relations in the digital economy and the (geo-)political power exerted by digital platform companies.
+
+In my dissertation project, I study the political implications of states' reliance on foreign digital platform companies to provide essential infrastructure and services. In other work, I examine the politics of self-regulation by Big Tech, global negotiations over the taxation of digital services, and the transatlantic politics of data sharing and privacy.
+
+I draw on a range of data sources and methodological approaches including survey experiments, elite interviews, and process tracing in in-depth case studies.
+
+My work has been published in peer-reviewed journals such as *New Political Economy* and the *Journal of European Integration*.
+
+My research has been funded by the [American Political Science Association](https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/). During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global Political Economy Project](https://mortara.georgetown.edu/research/global-political-economy-project-gpep/join-us/former-fellows/) at the Mortara Center for International Studies.
+
+I hold an M.A. in European Studies from Georgetown University and a B.A./B.B.A. from Texas Christian University.
+
+**Contact:** jh2176 \[at\] georgetown \[dot\] edu
+:::
+:::::
+::::::

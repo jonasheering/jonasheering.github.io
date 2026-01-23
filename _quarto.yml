@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jonas Heering"
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "CV"
+        href: files/Jonas-Heering-CV.pdf
+      - text: "Public Writing"
+        href: public-writing.qmd
+    right:
+      - icon: google
+        href: https://scholar.google.com/citations?user=WTr67bQAAAAJ&hl=en
+        aria-label: Google Scholar
+      - icon: mortarboard
+        href: https://orcid.org/0009-0008-8426-7867
+        aria-label: ORCID
+      - icon: github
+        href: https://github.com/jonasheering
+        aria-label: GitHub
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jonasheering/
+        aria-label: LinkedIn
+      - icon: cloud
+        href: https://bsky.app/profile/jonasheering.bsky.social
+        aria-label: BlueSky
+
+  page-footer:
+    left: |
+      © 2026 Jonas Heering
+    right: |
+      Built with [Quarto](https://quarto.org/)
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: false
+    page-layout: full
