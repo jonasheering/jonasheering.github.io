@@ -7,8 +7,6 @@ website:
   navbar:
     background: primary
     left:
-      - text: "Home"
-        href: index.qmd
       - text: "Research"
         href: research.qmd
       - text: "Teaching"
