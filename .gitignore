@@ -5,7 +5,9 @@
 .DS_Store
 .Rhistory
 
-# Ignore rendered files except docs
-*_files/
-*.html
+# Ignore rendered files at root level only
+/*_files/
+/*.html
+
+# Keep everything in docs
 !docs/
