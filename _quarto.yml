@@ -1,48 +1,27 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - files/**
 
 website:
   title: "Jonas Heering"
-  navbar:
-    background: primary
-    left:
-      - text: "Research"
-        href: research.qmd
-      - text: "Teaching"
-        href: teaching.qmd
-      - text: "CV"
-        href: files/Jonas-Heering-CV.pdf
-      - text: "Public Writing"
-        href: public-writing.qmd
-    right:
-      - icon: google
-        href: https://scholar.google.com/citations?user=WTr67bQAAAAJ&hl=en
-        aria-label: Google Scholar
-      - icon: mortarboard
-        href: https://orcid.org/0009-0008-8426-7867
-        aria-label: ORCID
-      - icon: github
-        href: https://github.com/jonasheering
-        aria-label: GitHub
-      - icon: linkedin
-        href: https://www.linkedin.com/in/jonasheering/
-        aria-label: LinkedIn
-      - icon: cloud
-        href: https://bsky.app/profile/jonasheering.bsky.social
-        aria-label: BlueSky
-
-  page-footer:
-    left: |
-      © 2026 Jonas Heering
-    right: |
-      Built with [Quarto](https://quarto.org/)
+  description: "Jonas Heering — PhD Candidate in International Relations, Georgetown University. Research on state-business relations in the digital economy and the political power of digital platform companies."
+  # Must match the host the site is actually served from. Quarto uses this to
+  # build sitemap/Open Graph URLs and to decide which links are "external".
+  # When jonasheering.com is attached as a custom domain, change this to
+  # https://jonasheering.com and add a CNAME file (see docs/CNAME).
+  site-url: https://jonasheering.github.io
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
-    theme: 
+    theme:
       - cosmo
       - custom.scss
-    css: styles.css
+    page-layout: custom
     toc: false
-    page-layout: full
+    anchor-sections: false
+    link-external-newwindow: true
+    include-after-body: scrollspy.html

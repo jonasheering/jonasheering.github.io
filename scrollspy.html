@@ -1,0 +1,74 @@
+<script>
+(function () {
+  var links = Array.prototype.slice.call(
+    document.querySelectorAll('#site-sidebar .side-nav a')
+  );
+  if (!links.length) return;
+
+  // Resolve each nav link to the section it points at.
+  var targets = links
+    .map(function (link) {
+      var id = link.getAttribute('href').slice(1);
+      var el = document.getElementById(id);
+      return el ? { link: link, el: el } : null;
+    })
+    .filter(Boolean);
+  if (!targets.length) return;
+
+  // ---- smooth scrolling -------------------------------------------------
+  // Driven from JS rather than CSS `scroll-behavior: smooth`, which browsers
+  // ignore when the OS "reduce motion" setting is on — leaving the native
+  // instant jump, which looks like the page flashing. preventDefault() stops
+  // that jump, and replaceState updates the URL without firing a hashchange
+  // (Quarto's nav script listens for that and re-scrolls on top of us).
+  targets.forEach(function (t) {
+    t.link.addEventListener('click', function (e) {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+      var top = t.el.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({ top: top, behavior: 'smooth' });
+      if (window.history && history.replaceState) {
+        history.replaceState(null, '', '#' + t.el.id);
+      }
+    });
+  });
+
+  // ---- active-section highlighting --------------------------------------
+  var ticking = false;
+
+  function update() {
+    ticking = false;
+    // The last section whose top has passed the trigger line wins. Near the
+    // bottom of the page, fall back to the final section so it can activate
+    // even when it is too short to reach the line.
+    var current = targets[0];
+    var atBottom =
+      window.innerHeight + window.scrollY >= document.body.scrollHeight - 2;
+
+    if (atBottom) {
+      current = targets[targets.length - 1];
+    } else {
+      for (var i = 0; i < targets.length; i++) {
+        if (targets[i].el.getBoundingClientRect().top <= 140) {
+          current = targets[i];
+        }
+      }
+    }
+
+    targets.forEach(function (t) {
+      t.link.classList.toggle('active', t === current);
+    });
+  }
+
+  function onScroll() {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+  }
+
+  window.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('resize', onScroll, { passive: true });
+  update();
+})();
+</script>

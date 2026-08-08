@@ -8,6 +8,10 @@
 # Ignore rendered files at root level only
 /*_files/
 /*.html
+# ...but scrollspy.html is source, not output: it is the include-after-body
+# partial that provides smooth scrolling and nav highlighting.
+!/scrollspy.html
 
 # Keep everything in docs
 !docs/
+**/*.quarto_ipynb

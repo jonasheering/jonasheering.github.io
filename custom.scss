@@ -1,21 +1,388 @@
 /*-- scss:defaults --*/
 
-// Custom color scheme
+// Palette carried over from the previous site
 $primary: #003366;
-$secondary: #6c757d;
-$success: #28a745;
-$info: #17a2b8;
-$warning: #ffc107;
-$danger: #dc3545;
+$body-color: #1c1f23;
+$link-color: #003366;
+$body-bg: #ffffff;
 
-// Typography
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  "Helvetica Neue", Arial, sans-serif;
 $headings-font-weight: 600;
-
-// Navbar
-$navbar-bg: $primary;
-$navbar-fg: white;
+$line-height-base: 1.65;
 
 /*-- scss:rules --*/
 
-// Custom rules can be added here if needed
+:root {
+  --jh-navy: #003366;
+  --jh-ink: #1c1f23;
+  --jh-muted: #5c6570;
+  --jh-rule: #e3e6ea;
+  --jh-side-bg: #fafbfc;
+  --jh-sidebar-w: 320px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+// Quarto drops the page content straight into this container under
+// page-layout: custom. The sidebar is fixed, so the content column is
+// inset by the sidebar width.
+#quarto-content {
+  padding-left: var(--jh-sidebar-w);
+  max-width: none;
+}
+
+// ---------------------------------------------------------------- sidebar
+
+#site-sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--jh-sidebar-w);
+  height: 100vh;
+  overflow-y: auto;
+  background: var(--jh-side-bg);
+  border-right: 1px solid var(--jh-rule);
+  z-index: 10;
+}
+
+.sidebar-inner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 56px 36px 32px;
+}
+
+.avatar {
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.side-name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0 0 8px;
+}
+
+.side-role {
+  color: var(--jh-muted);
+  font-size: 0.86rem;
+  line-height: 1.5;
+  margin: 0 0 32px;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 26px;
+
+  a {
+    color: var(--jh-muted);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 7px 0 7px 14px;
+    border-left: 2px solid var(--jh-rule);
+    transition: color 0.15s, border-color 0.15s;
+
+    &:hover {
+      color: var(--jh-ink);
+      border-left-color: #b9c2cc;
+    }
+
+    &.active {
+      color: var(--jh-navy);
+      font-weight: 600;
+      border-left-color: var(--jh-navy);
+    }
+  }
+}
+
+// Pushes the social links and copyright to the bottom of the rail.
+.side-cta {
+  margin-bottom: auto;
+}
+
+.btn-cv {
+  display: block;
+  text-align: center;
+  font-size: 0.82rem;
+  padding: 9px 13px;
+  border: 1px solid var(--jh-navy);
+  border-radius: 4px;
+  color: var(--jh-navy);
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--jh-navy);
+    color: #fff;
+  }
+}
+
+.side-social {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  padding-top: 26px;
+  border-top: 1px solid var(--jh-rule);
+  margin-top: 28px;
+
+  a {
+    color: var(--jh-muted);
+    text-decoration: none;
+    font-size: 0.8rem;
+    letter-spacing: 0.02em;
+
+    &:hover {
+      color: var(--jh-navy);
+    }
+  }
+}
+
+.side-copyright {
+  color: #98a1ab;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  margin: 18px 0 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ---------------------------------------------------------------- content
+
+// Each `##` heading becomes a top-level section; these are the scroll targets.
+#quarto-content > section.level2 {
+  max-width: 904px; // 760px of text + horizontal padding
+  padding: 64px 72px;
+  border-bottom: 1px solid var(--jh-rule);
+
+  &:first-of-type {
+    padding-top: 76px;
+  }
+
+  // The final section is tall enough that its top can always reach the
+  // scrollspy trigger line. Without this the last sections share the closing
+  // viewport, can never scroll to the top, and their nav links never activate.
+  &:last-of-type {
+    border-bottom: none;
+    padding-bottom: 96px;
+    min-height: calc(100vh - 120px);
+  }
+
+  > h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 28px;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  > p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// `###` subsections (Peer-Reviewed Articles, Working Papers, …)
+section.level3 {
+  > h3 {
+    font-size: 0.76rem;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--jh-muted);
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+
+  + section.level3 {
+    margin-top: 44px;
+  }
+}
+
+a {
+  color: var(--jh-navy);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.pub {
+  margin-bottom: 22px;
+  font-size: 0.97rem;
+  // Full DOI URLs are a single unbreakable token; let them wrap on narrow
+  // screens rather than pushing the page sideways.
+  overflow-wrap: break-word;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  em {
+    color: var(--jh-muted);
+  }
+}
+
+.course {
+  margin-bottom: 16px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .meta {
+    color: var(--jh-muted);
+    font-size: 0.9rem;
+  }
+}
+
+// Collapsible abstracts
+details {
+  margin-top: 7px;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.83rem;
+    color: var(--jh-muted);
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "\25B8";
+      font-size: 0.7rem;
+      display: inline-block;
+      transition: transform 0.15s;
+    }
+
+    &:hover {
+      color: var(--jh-navy);
+    }
+  }
+
+  &[open] summary::before {
+    transform: rotate(90deg);
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #3d444c;
+    margin: 10px 0 0;
+    padding-left: 16px;
+    border-left: 2px solid var(--jh-rule);
+  }
+}
+
+// ---------------------------------------------------------------- responsive
+
+@media (max-width: 1080px) {
+  #quarto-content > section.level2 {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+@media (max-width: 900px) {
+  #quarto-content {
+    padding-left: 0;
+  }
+
+  #site-sidebar {
+    position: static;
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    border-right: none;
+    border-bottom: 1px solid var(--jh-rule);
+  }
+
+  .sidebar-inner {
+    min-height: 0;
+    padding: 40px 24px 28px;
+  }
+
+  .avatar {
+    width: 104px;
+    height: 104px;
+  }
+
+  .side-role {
+    margin-bottom: 24px;
+  }
+
+  .side-nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px 18px;
+    margin-bottom: 20px;
+
+    a {
+      border-left: none;
+      padding: 4px 0;
+      border-bottom: 2px solid transparent;
+
+      &:hover {
+        border-left-color: transparent;
+        border-bottom-color: #b9c2cc;
+      }
+
+      &.active {
+        border-left-color: transparent;
+        border-bottom-color: var(--jh-navy);
+      }
+    }
+  }
+
+  .side-cta {
+    margin-bottom: 0;
+  }
+
+  .btn-cv {
+    display: inline-block;
+  }
+
+  #quarto-content > section.level2 {
+    padding: 44px 24px;
+
+    &:first-of-type {
+      padding-top: 44px;
+    }
+  }
+}
