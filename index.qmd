@@ -51,7 +51,7 @@ In my dissertation, *Enablers or Challengers: How Foreign Platforms Shape Host-S
 
 I draw on a range of data sources and methodological approaches including survey experiments, elite interviews, and process tracing in in-depth case studies.
 
-My work has appeared in peer-reviewed journals including *New Political Economy*, *Comparative European Politics*, and the *Journal of European Integration*, with forthcoming work in *Nature Communications*.
+My work has appeared in peer-reviewed journals including *Nature Communications*, *New Political Economy*, the *Journal of European Integration*, and *Comparative European Politics*.
 
 My research has been funded by the National Science Foundation and the [American Political Science Association](https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/), the Institute for Humane Studies, and Georgetown's Tech & Public Policy Program. During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global Political Economy Project](https://mortara.georgetown.edu/research/global-political-economy-project-gpep/join-us/former-fellows/) at the Mortara Center for International Studies.
 
@@ -62,11 +62,25 @@ I hold an M.A. in Government and an M.A. in European Studies from Georgetown Uni
 ### Peer-Reviewed Articles
 
 ::: {.pub}
-[5] **Heering, Jonas** and Erik Voeten. "How Sovereign Control, Decarbonization, and Energy Costs Shape Public Support for Data Centers." Forthcoming at *Nature Communications*. [\[Preprint\]](https://osf.io/preprints/socarxiv/fc3pb_v2)
+[5] **Heering, Jonas** and Erik Voeten. "How Sovereign Control, Decarbonization and Energy Costs Shape Public Support for Data Centers." *Nature Communications*. [https://www.nature.com/articles/s41467-026-76500-9](https://www.nature.com/articles/s41467-026-76500-9)
+
+<details>
+<summary>Abstract</summary>
+
+The rapid expansion of data centers has created new political challenges. Governments want to build more data centers to reap the benefits from the artificial intelligence (AI) economy and achieve their digital sovereignty agendas. However, data centers require enormous amounts of electricity and water, threaten emission-reduction targets, and often raise local electricity prices. As a result, local communities increasingly mobilize against data center construction. We use a vignette and conjoint survey experiment in Germany to evaluate how publics think about the environmental, economic, and (geo)political tradeoffs that data centers entail. We find that directly priming people with digital sovereignty concerns only marginally increases support for building more data centers. Yet, support varies substantially based on characteristics that people do have strong views about: decarbonization, geopolitics, and local environmental and economic impact. Geopolitical concerns are particularly salient: people strongly favor data centers operated by German or European firms over US or Chinese operators. These nationality effects are large even when compared to the effects of electricity price increases and variation in energy sources. Our findings suggest that public opposition to data centers depends on pre-existing political cleavages and that sovereignty concerns loom large.
+
+</details>
 :::
 
 ::: {.pub}
 [4] Beaumier, Guillaume, **Jonas Heering**, and Abraham Newman. (2026). "A digital divide? Digital market governance in the transatlantic space." *Comparative European Politics*, 24, Article 36. [https://doi.org/10.1057/s41295-026-00484-5](https://doi.org/10.1057/s41295-026-00484-5)
+
+<details>
+<summary>Abstract</summary>
+
+The EU and the US have emerged as central actors in the governance of the digital economy. Existing scholarship tends to view their digital governance models as distinctive approaches, with the EU advancing a rights-based model and the US favoring a market-based approach. Yet, such arguments mask the underlying interdependencies that shape digital policymaking on both sides of the Atlantic. In this paper, we show how the digital market governance strategies of the EU and the US were shaped through the constant interactions of their respective attempts to unleash market competition and shield citizens from harm. By tracing the evolution of transatlantic digital governance since the 1990s, we highlight how both jurisdictions initially emphasized market making over market correction, hoping to unleash the promises of new technology. As the digital economy consolidated around a few large US-based technology companies, however, digital governance in the EU shifted toward a more protective approach. EU digital governance attempted to balance the EU’s dependence on foreign digital technology firms—and their influence on EU policymaking—with efforts to get these firms to follow EU market rules. European regulatory efforts reverberated across the Atlantic as US policymakers took up concerns related to market concentration. With the reelection of Donald Trump, digital policy is increasingly becoming intertwined with both trade and security policy on both sides of the Atlantic. The paper, then, underscores the interrelated nature of digital policy-making where markets and authority increasingly span borders.
+
+</details>
 :::
 
 ::: {.pub}
@@ -106,7 +120,7 @@ Why does the European Commission continue to sign onto unstable international da
 :::
 
 ::: {.pub}
-**Heering, Jonas**, Niccolò Bonifai, and Abraham Newman. "When Big Tech Helps Big Brother: How the Civil Liberty-Security Tradeoff Shapes Attitudes Toward Tech Company Involvement in Government Surveillance."
+Niccolò Bonifai, **Heering, Jonas**, and Abraham Newman. "When Big Tech Helps Big Brother: How the Civil Liberty-Security Tradeoff Shapes Attitudes Toward Tech Company Involvement in Government Surveillance."
 :::
 
 ## Teaching
@@ -138,11 +152,7 @@ Why does the European Commission continue to sign onto unstable international da
 ## Public Writing {#writing}
 
 ::: {.pub}
-**Heering, Jonas**, Gordon LaForge, Deborah Avant, and Merle Weidt. (2023). "Democracy in the Digital Wild: Can Democracy and Digitization Co-Exist?" *New America*, May 2023. [\[link\]](https://www.newamerica.org/planetary-politics/briefs/democracy-in-the-digital-wild/)
-:::
-
-::: {.pub}
-**Heering, Jonas**. (2021). "Soft Power in a Sharp Power World: EU & U.S. Public Diplomacy Responses to Disinformation in Central and Eastern Europe." *Institute for the Study of Diplomacy*, July 2021.
+Deborah Avant, **Heering, Jonas**, and Merle Weidt. (2023). "Democracy in the Digital Wild: Can Democracy and Digitization Co-Exist?" *New America*, May 2023. [\[link\]](https://www.newamerica.org/planetary-politics/briefs/democracy-in-the-digital-wild/)
 :::
 
 ::: {.pub}
