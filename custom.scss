@@ -312,6 +312,20 @@ details {
 
 // ---------------------------------------------------------------- responsive
 
+// Large screens: the layout only needs 1224px (320px sidebar + 904px content).
+// Past that, centre the whole unit instead of leaving it pinned to the left
+// edge with a growing empty gutter on the right. The gutter is 0 at exactly
+// 1224px, so this eases in continuously rather than jumping.
+@media (min-width: 1224px) {
+  #site-sidebar {
+    left: calc((100vw - 1224px) / 2);
+  }
+
+  #quarto-content {
+    padding-left: calc((100vw - 1224px) / 2 + var(--jh-sidebar-w));
+  }
+}
+
 @media (max-width: 1080px) {
   #quarto-content > section.level2 {
     padding-left: 48px;
