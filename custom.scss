@@ -206,6 +206,18 @@ body {
   }
 }
 
+// Justified prose (About paragraphs and the collapsible abstracts).
+// hyphens: auto is not optional here — justifying a 760px column without
+// hyphenation stretches word spacing into visible "rivers" of whitespace.
+// Citations are deliberately excluded: they contain long unbreakable DOI
+// URLs, which justification would blow apart into huge gaps.
+#quarto-content > section.level2 > p,
+details p {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
 // `###` subsections (Peer-Reviewed Articles, Working Papers, …)
 section.level3 {
   > h3 {
