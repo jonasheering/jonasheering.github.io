@@ -45,17 +45,15 @@ pagetitle: "Jonas Heering"
 
 ## About
 
-I am a Ph.D. candidate in International Relations at Georgetown University's Department of Government. My research focuses on state-business relations in the digital economy and the (geo-)political power exerted by digital platform companies.
+I am a Ph.D. candidate in International Relations at Georgetown University's Department of Government. My research focuses on state-business relations in the digital economy and the (geo-)political power exerted by digital technology companies. I draw on a range of data sources and methodological approaches including survey experiments, elite interviews, observational data analysis, and process tracing in in-depth case studies.
 
-In my dissertation, *Enablers or Challengers: How Foreign Platforms Shape Host-State Authority*, I study the political implications of states' reliance on foreign digital platform companies to provide essential infrastructure and services. In other work, I examine the politics of self-regulation by Big Tech, global negotiations over the taxation of digital services, and the transatlantic politics of data sharing and privacy.
+My dissertation examines how governments' dependence on digital infrastructure provided by foreign digital platform companies shapes state-firm bargaining over the governance of online content and data. This research has received support from the [**National Science Foundation/American Political Science Association**](https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/). 
 
-I draw on a range of data sources and methodological approaches including survey experiments, elite interviews, and process tracing in in-depth case studies.
+A related line of research focuses the global politics of artificial intelligence (AI) regulation and digital sovereignty. My work on how concerns over digital sovereignty shape public support for data centers has been published in *Nature Communications*---this research received support from the Institute for Humane Studies. Together with Erik Voeten and Jori Breslawski, I am currently the co-principal investigator on a grant provided by the Tech & Public Policy Institute at the McCourt School of Public Policy to examine how sovereignty concerns shape AI adoption and regulation globally and how such concerns can be mitigated. 
 
-My work has appeared in peer-reviewed journals including *Nature Communications*, *New Political Economy*, the *Journal of European Integration*, and *Comparative European Politics*.
-
-My research has been funded by the National Science Foundation and the [American Political Science Association](https://apsanet.org/programs/doctoral-dissertation-research-improvement-grants/), the Institute for Humane Studies, and Georgetown's Tech & Public Policy Program. During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global Political Economy Project](https://mortara.georgetown.edu/research/global-political-economy-project-gpep/join-us/former-fellows/) at the Mortara Center for International Studies.
-
-I hold an M.A. in Government and an M.A. in European Studies from Georgetown University, and a B.A. in Political Science and B.B.A. in Management from Texas Christian University.
+In other work, I examine the politics of self-regulation by Big Tech, global negotiations over the taxation of digital services, and the transatlantic politics of data sharing and privacy. Some of this research has been published in *New Political Economy*, the *Journal of European Integration*, and *Comparative European Politics* 
+ 
+During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global Political Economy Project](https://mortara.georgetown.edu/research/global-political-economy-project-gpep/join-us/former-fellows/) at the Mortara Center for International Studies. I hold an M.A. in Government and an M.A. in European Studies from Georgetown University, and a B.A. in Political Science and Management from Texas Christian University.
 
 ## Research
 
@@ -117,6 +115,12 @@ Why does the European Commission continue to sign onto unstable international da
 
 ::: {.pub}
 **Heering, Jonas**. "Terms of Compliance: How Home–Host Market Institutional Distance Shapes Big Tech Compliance with Host Government Demands."
+:::
+
+### Work in Progress
+
+::: {.pub}
+Breslawski, Jori, **Jonas Heering**, and Erik Voeten. "Credible Constraints: Domestic Regulatory Guardrails and the Global Competition for AI Adoption." (multiple papers)
 :::
 
 ::: {.pub}
