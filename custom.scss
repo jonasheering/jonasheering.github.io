@@ -15,6 +15,8 @@ $line-height-base: 1.65;
 
 :root {
   --jh-navy: #003366;
+  --jh-accent: #b4532a;      // [PDF] / [Replication Data] links; ~5:1 on white
+  --jh-accent-dark: #8f3f1f;
   --jh-ink: #1c1f23;
   --jh-muted: #5c6570;
   --jh-rule: #e3e6ea;
@@ -260,6 +262,17 @@ a {
 
   em {
     color: var(--jh-muted);
+  }
+
+  // Resource links after a citation ([PDF], [Replication Data]) get their own
+  // colour so they read as downloads, distinct from the DOI link. Add
+  // {.pub-link} to a link in index.qmd to opt it in.
+  a.pub-link {
+    color: var(--jh-accent);
+
+    &:hover {
+      color: var(--jh-accent-dark);
+    }
   }
 }
 

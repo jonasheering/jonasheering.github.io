@@ -60,7 +60,7 @@ During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global
 ### Peer-Reviewed Articles
 
 ::: {.pub}
-[5] **Heering, Jonas** and Erik Voeten. (2026). "How Sovereign Control, Decarbonization and Energy Costs Shape Public Support for Data Centers." *Nature Communications*, 17, Article 9576. [https://doi.org/10.1038/s41467-026-76500-9](https://doi.org/10.1038/s41467-026-76500-9) [\[PDF\]](files/papers/Heering_Voeten_2026_NatureCommunications.pdf){target="_blank" rel="noopener"} [\[Replication Data\]](https://osf.io/nqegr/){target="_blank" rel="noopener"}
+[5] **Heering, Jonas** and Erik Voeten. (2026). "How Sovereign Control, Decarbonization and Energy Costs Shape Public Support for Data Centers." *Nature Communications*, 17, Article 9576. [https://doi.org/10.1038/s41467-026-76500-9](https://doi.org/10.1038/s41467-026-76500-9) [\[PDF\]](files/papers/Heering_Voeten_2026_NatureCommunications.pdf){.pub-link target="_blank" rel="noopener"} [\[Replication Data\]](https://osf.io/nqegr/){.pub-link target="_blank" rel="noopener"}
 
 <details>
 <summary>Abstract</summary>
@@ -71,7 +71,7 @@ The rapid expansion of data centers has created new political challenges. Govern
 :::
 
 ::: {.pub}
-[4] Beaumier, Guillaume, **Jonas Heering**, and Abraham Newman. (2026). "A digital divide? Digital market governance in the transatlantic space." *Comparative European Politics*, 24, Article 36. [https://doi.org/10.1057/s41295-026-00484-5](https://doi.org/10.1057/s41295-026-00484-5) [\[PDF\]](files/papers/Beaumier_Heering_Newman_2026_CEP_preprint.pdf){target="_blank" rel="noopener"}
+[4] Beaumier, Guillaume, **Jonas Heering**, and Abraham Newman. (2026). "A digital divide? Digital market governance in the transatlantic space." *Comparative European Politics*, 24, Article 36. [https://doi.org/10.1057/s41295-026-00484-5](https://doi.org/10.1057/s41295-026-00484-5) [\[PDF\]](files/papers/Beaumier_Heering_Newman_2026_CEP_preprint.pdf){.pub-link target="_blank" rel="noopener"}
 
 <details>
 <summary>Abstract</summary>
@@ -82,7 +82,7 @@ The EU and the US have emerged as central actors in the governance of the digita
 :::
 
 ::: {.pub}
-[3] **Heering, Jonas**, Loriana Crasnic, and Abraham Newman. (2025). "When Digital Taxes Come Due: National Digital Taxes and the Negotiation of the OECD Inclusive Framework." *New Political Economy*, 30(2), 178-193. [https://doi.org/10.1080/13563467.2024.2405524](https://doi.org/10.1080/13563467.2024.2405524) [\[PDF\]](files/papers/Heering_Crasnic_Newman_2025_NPE_preprint.pdf){target="_blank" rel="noopener"}
+[3] **Heering, Jonas**, Loriana Crasnic, and Abraham Newman. (2025). "When Digital Taxes Come Due: National Digital Taxes and the Negotiation of the OECD Inclusive Framework." *New Political Economy*, 30(2), 178-193. [https://doi.org/10.1080/13563467.2024.2405524](https://doi.org/10.1080/13563467.2024.2405524) [\[PDF\]](files/papers/Heering_Crasnic_Newman_2025_NPE_preprint.pdf){.pub-link target="_blank" rel="noopener"}
 
 <details>
 <summary>Abstract</summary>
@@ -93,7 +93,7 @@ What explains major shifts in international tax cooperation? Existing literature
 :::
 
 ::: {.pub}
-[2] Beaumier, Guillaume, **Jonas Heering**, and Abraham Newman. (2024). "Running out the digital clock: Transatlantic privacy politics and veto points in time." *Journal of European Integration*, 46(7), 993-1013. [https://doi.org/10.1080/07036337.2024.2398434](https://doi.org/10.1080/07036337.2024.2398434) [\[PDF\]](files/papers/Beaumier_Heering_Newman_2024_JEI_preprint.pdf){target="_blank" rel="noopener"}
+[2] Beaumier, Guillaume, **Jonas Heering**, and Abraham Newman. (2024). "Running out the digital clock: Transatlantic privacy politics and veto points in time." *Journal of European Integration*, 46(7), 993-1013. [https://doi.org/10.1080/07036337.2024.2398434](https://doi.org/10.1080/07036337.2024.2398434) [\[PDF\]](files/papers/Beaumier_Heering_Newman_2024_JEI_preprint.pdf){.pub-link target="_blank" rel="noopener"}
 
 <details>
 <summary>Abstract</summary>
