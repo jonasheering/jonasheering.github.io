@@ -60,7 +60,7 @@ During the 2022-2023 academic year, I was a pre-doctoral fellow with the [Global
 ### Peer-Reviewed Articles
 
 ::: {.pub}
-[5] **Heering, Jonas** and Erik Voeten. "How Sovereign Control, Decarbonization and Energy Costs Shape Public Support for Data Centers." *Nature Communications*. [https://www.nature.com/articles/s41467-026-76500-9](https://www.nature.com/articles/s41467-026-76500-9) [\[PDF\]](files/papers/Heering_Voeten_2026_NatureCommunications.pdf){target="_blank" rel="noopener"}
+[5] **Heering, Jonas** and Erik Voeten. (2026). "How Sovereign Control, Decarbonization and Energy Costs Shape Public Support for Data Centers." *Nature Communications*, 17, Article 9576. [https://doi.org/10.1038/s41467-026-76500-9](https://doi.org/10.1038/s41467-026-76500-9) [\[PDF\]](files/papers/Heering_Voeten_2026_NatureCommunications.pdf){target="_blank" rel="noopener"} [\[Replication Data\]](https://osf.io/nqegr/){target="_blank" rel="noopener"}
 
 <details>
 <summary>Abstract</summary>
